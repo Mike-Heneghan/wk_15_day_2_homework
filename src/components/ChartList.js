@@ -10,9 +10,9 @@ const ChartList = (props) => {
   })
 
   return (
-      <ol className="chart-list">
+      <div className="chart-list">
         {chartInfo}
-      </ol>
+      </div>
   )
 }
 
